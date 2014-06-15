@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ### Style Guides
 
@@ -12,3 +13,9 @@
 
 
 
+=======
+groupme
+=======
+
+The practice of rails-101
+>>>>>>> 564307c33ea6bfd079c4e5429c5fa149435fde21
