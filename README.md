@@ -5,6 +5,10 @@ groupme
 
 The practice of rails-101
 
+### Environment
+* Ubuntu 14.04
+* Ruby 2.1.2
+
 ### Style Guides
 
 * [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide)
