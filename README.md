@@ -1,4 +1,9 @@
-<<<<<<< HEAD
+
+=======
+groupme
+=======
+
+The practice of rails-101
 
 ### Style Guides
 
@@ -10,12 +15,3 @@
 ### Speedup Tips
 
 * [Speed up the Rails Asset Pipeline precompile process](http://stackoverflow.com/questions/11390447/how-can-you-speed-up-the-rails-asset-pipeline-precompile-process/11390454#11390454)
-
-
-
-=======
-groupme
-=======
-
-The practice of rails-101
->>>>>>> 564307c33ea6bfd079c4e5429c5fa149435fde21
