@@ -19,11 +19,8 @@
         <td> <%= link_to(truncate(group.title, :length => 17), group_path(group)) %> </td>
         <td> <%= group.description %> </td>
         <td> <%= group.owner.name %> </td>
-        <td>
-             <% if current_user && group.editable_by?(current_user) %>
-             <%= link_to("Edit", edit_group_path(group), :class => "btn btn-mini") %> 
-             <%= link_to("Delete", group_path(group), :class => "btn btn-mini", :method => :delete, :confirm => "Are you sure?" ) %> 
-             <% end %>
+        <td> <%= render_group_editable_action(group) %> 
+             <%= render_group_deletable_action(group) %> 
         </td>
       </tr>
       <% end %>
